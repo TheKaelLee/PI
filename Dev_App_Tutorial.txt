@@ -1,0 +1,124 @@
+﻿Desenvolvimento de App
+
+
+Olá, iremos fazer um tutorial de IONIC que o que estamos aprendendo na disciplina de Desenvolvimento de App, iremos falar o que é, como usar e sua instalação.
+
+
+
+
+Introdução ao Ionic
+O Ionic é um kit de ferramentas de interface do usuário de código aberto para criar aplicativos móveis e de desktop de alta qualidade e 
+desempenho usando tecnologias da Web — HTML, CSS e JavaScript — com integração para estruturas populares como Angular, React e Vue.
+Ele também se concentra na interação de UX e interface do usuário do front-end de um aplicativo - controles de interface do usuário, interações, gestos, animações.
+É fácil de aprender e se integra a outras bibliotecas ou estruturas, como Angular, React ou Vue, 
+Ele pode ser usado de forma independente sem qualquer estrutura de front-end usando um script incluído simples. 
+
+
+O Ionic é a única pilha de aplicativos móveis que permite que os desenvolvedores da Web criem aplicativos para todas as principais lojas 
+de aplicativos e a Web móvel a partir de uma única base de código. 
+E com o Adaptive Styling, os aplicativos Ionic parecem em casa em todos os dispositivos.
+
+
+Meu nome é Lucas e vamos começar a instalação
+
+
+Primeiro baixe o NODE.JS na sua maquina https://nodejs.org/en/
+
+
+a partir dele abra seu CMD na sua maquina, se nao sabe onde é, clique com o botão windows e escreva CMD, isso irá abrir seu Prompt de comando
+
+
+após isso somente digite o comando
+
+
+npm install -g @ionic/cli
+
+
+Observação
+A opção -g significa instalar globalmente. 
+Quando os pacotes são instalados globalmente, podem ocorrer erros de permissão EACCES. Considere configurar o npm para operar globalmente sem permissões elevadas.
+
+
+o CLI é CLI único. A Ionic Command Line Interface (CLI) é sua ferramenta para o desenvolvimento de aplicativos Ionic. 
+Você pode acompanhar o desenvolvimento da CLI no Github. Usando Cordova. Fluxo de aplicativo iônico.
+
+
+Enfim, após fazer o download do CLI.
+
+
+Digite novamente o comando 
+
+
+ionic start
+
+
+Iniciar um novo aplicativo Ionic é incrivelmente simples. Na linha de comando, execute o comando ionic start e a CLI cuidará do resto.
+
+
+
+
+Após o IONIC start irá aparecer essa mensagem 
+
+
+IONIC start
+
+
+Every great app needs a name! 
+
+
+Please enter the full name of your app. You can change this at any time.
+To bypass this prompt next time, supply name,
+the first argument to ionic start.
+
+
+? Project name: 
+
+
+O Ionic CLI exibirá prompts solicitando o nome do novo projeto e qual modelo usar. Esses detalhes podem ser fornecidos como argumentos de comando.
+
+
+Após isso digite o comando
+
+
+ ionic start myApp tabs
+
+
+MyApp é o nome do projeto, tabs é o modelo inicial e o tipo de projeto é angular.
+
+
+Tabs não é o único modelo de projeto disponível. Entre todos os tipos de projeto, existem três modelos disponíveis:
+
+
+guias: um layout baseado em guias
+side menu: um layout baseado em menu lateral
+blank: Um projeto vazio com uma única página
+
+
+Após isso irá criar uma página no browser, um local host publico onde você irá escolher como será o projeto baseado nas opções GUIAS,SIDE MENU,BLANK
+O próximo passo será baixar o VSC para começar o código do projeto montando sua estrutura.
+
+
+Próximo passo 
+
+
+Baixar VSC https://code.visualstudio.com/download
+
+
+A extensão Ionic Visual Studio Code ajuda você a executar várias funções comuns ao desenvolvimento de um aplicativo Ionic, tudo sem sair da janela do VS Code. 
+Você pode instalar a extensão no Visual Studio Marketplace. 
+Depois de instalar a extensão, você verá o logotipo Ionic na barra de atividades.
+
+
+Depois de instalar o Visual Studio Code, você irá abrir a pasta que la no começo criou no Windows pasta IONIC e irá abrir ela no Visual Studio Code
+e lá irá aparecer todo o projeto já com as ferramentas do Cli, após isso clique na opção View do VIsual Studio Code e clique "Terminal" isso é igual ao prompt de 
+comando que estávamos usando antes, mas pra mim pessoalmente facilita, então escreva o comando no Terminal do VSC
+
+
+IONIC SERVE 
+
+
+e irá abrir o browser novamente e comece seu codigo, próximo tutorial iremos mostrar como começar a iniciação de um projeto e conclusão em IONIC
+Ajuda muito se você estudar HTML e JavaScript, assim não ficará totalmente perdido na hora de montarmos a estrutura.
+
+
+Esse foi o tutorial de Dev de App, espero que tenha gostado, meu App nesta matéria está sendo um delivery, próxima aula irei mostrar o código dele e a sua progressão.
